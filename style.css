@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(45deg, black, orange, rgba(219, 0, 0, 0.658)   );
+    height: 100vh;
+    color: #eee;
+
+}
+.clock{
+    background-image: url(zoebg.jpeg);
+    background-position: center;
+    padding: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.clock h1{
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 6px;
+    border-radius: 17%;
+}
+button{
+    border-radius: 5px;
+    padding: 4px;
+}
+.btn-green{
+    background-color: #0f0;
+}
+.btn-yellow{
+    background-color: #ff0;
+}
+.btn-red{
+    background-color: #f00;
+}
